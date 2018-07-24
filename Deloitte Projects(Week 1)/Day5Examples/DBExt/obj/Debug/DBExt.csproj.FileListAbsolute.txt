@@ -1,0 +1,11 @@
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\obj\Debug\DBExt.csprojResolveAssemblyReference.cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\obj\Debug\DBExt.Form2.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\obj\Debug\DBExt.Properties.Resources.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\obj\Debug\DBExt.csproj.GenerateResource.Cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\bin\Debug\DBExt.exe.config
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\bin\Debug\DBExt.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\bin\Debug\DBExt.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\obj\Debug\DBExt.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\obj\Debug\DBExt.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\bin\Debug\EntityFramework.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Examples\DBExt\bin\Debug\EntityFramework.xml

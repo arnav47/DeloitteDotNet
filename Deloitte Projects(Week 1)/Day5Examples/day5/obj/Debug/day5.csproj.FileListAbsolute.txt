@@ -1,0 +1,9 @@
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Examples\day5\bin\Debug\day5.exe.config
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Examples\day5\obj\Debug\day5.csprojResolveAssemblyReference.cache
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Examples\day5\obj\Debug\day5.Form1.resources
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Examples\day5\obj\Debug\day5.Properties.Resources.resources
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Examples\day5\obj\Debug\day5.csproj.GenerateResource.Cache
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Examples\day5\bin\Debug\day5.exe
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Examples\day5\bin\Debug\day5.pdb
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Examples\day5\obj\Debug\day5.exe
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Examples\day5\obj\Debug\day5.pdb

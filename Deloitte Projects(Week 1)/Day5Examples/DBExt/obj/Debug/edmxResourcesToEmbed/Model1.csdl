@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TrainingDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="RegisterShopping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="7" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Membership" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ShoppingPreference" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="COD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="TrainingDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="RegisterShoppings" EntityType="Self.RegisterShopping" />
+    <FunctionImport Name="sp_SelectRegisterShopping" ReturnType="Collection(TrainingDBModel.sp_SelectRegisterShopping_Result)">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_SelectRegisterShopping_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Gender" Nullable="false" MaxLength="7" />
+    <Property Type="String" Name="Membership" Nullable="false" MaxLength="5" />
+    <Property Type="String" Name="ShoppingPreference" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="COD" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="20" />
+  </ComplexType>
+</Schema>
