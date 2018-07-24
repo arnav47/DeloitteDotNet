@@ -1,0 +1,10 @@
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\bin\Debug\CodeFirstPizza.exe.config
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\bin\Debug\CodeFirstPizza.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\bin\Debug\CodeFirstPizza.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\bin\Debug\EntityFramework.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\bin\Debug\EntityFramework.xml
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\obj\Debug\CodeFirstPizza.csprojResolveAssemblyReference.cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\obj\Debug\CodeFirstPizza.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day5Assignment\CodeFirstPizza\obj\Debug\CodeFirstPizza.pdb

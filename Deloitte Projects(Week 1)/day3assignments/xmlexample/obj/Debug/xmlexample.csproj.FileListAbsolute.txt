@@ -1,0 +1,6 @@
+c:\users\nexwave\documents\visual studio 2015\Projects\day3assignments\xmlexample\bin\Debug\xmlexample.exe.config
+c:\users\nexwave\documents\visual studio 2015\Projects\day3assignments\xmlexample\obj\Debug\xmlexample.csprojResolveAssemblyReference.cache
+c:\users\nexwave\documents\visual studio 2015\Projects\day3assignments\xmlexample\bin\Debug\xmlexample.exe
+c:\users\nexwave\documents\visual studio 2015\Projects\day3assignments\xmlexample\bin\Debug\xmlexample.pdb
+c:\users\nexwave\documents\visual studio 2015\Projects\day3assignments\xmlexample\obj\Debug\xmlexample.exe
+c:\users\nexwave\documents\visual studio 2015\Projects\day3assignments\xmlexample\obj\Debug\xmlexample.pdb

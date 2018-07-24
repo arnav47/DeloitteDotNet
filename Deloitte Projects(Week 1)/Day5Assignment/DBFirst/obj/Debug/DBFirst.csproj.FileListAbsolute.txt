@@ -1,0 +1,11 @@
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\bin\Debug\DBFirst.exe.config
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\bin\Debug\DBFirst.exe
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\bin\Debug\DBFirst.pdb
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\bin\Debug\EntityFramework.dll
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\bin\Debug\EntityFramework.xml
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\obj\Debug\DBFirst.csprojResolveAssemblyReference.cache
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\obj\Debug\DBFirst.Form1.resources
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\obj\Debug\DBFirst.Properties.Resources.resources
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\obj\Debug\DBFirst.csproj.GenerateResource.Cache
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\obj\Debug\DBFirst.exe
+c:\users\nexwave\documents\visual studio 2015\Projects\Day5Assignment\DBFirst\obj\Debug\DBFirst.pdb

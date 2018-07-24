@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xmlexample", "xmlexample\xmlexample.csproj", "{68B0BE88-D0FC-479A-BE5C-9C8759D9AF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atts", "Atts\Atts.csproj", "{C7473AE2-3CC2-42C0-8AC2-DC7F79103403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQPizza", "LINQPizza\LINQPizza.csproj", "{E73FD5EC-6CC4-4F7D-ABC3-8C1D6E069A15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B0BE88-D0FC-479A-BE5C-9C8759D9AF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B0BE88-D0FC-479A-BE5C-9C8759D9AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B0BE88-D0FC-479A-BE5C-9C8759D9AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B0BE88-D0FC-479A-BE5C-9C8759D9AF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7473AE2-3CC2-42C0-8AC2-DC7F79103403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7473AE2-3CC2-42C0-8AC2-DC7F79103403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7473AE2-3CC2-42C0-8AC2-DC7F79103403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7473AE2-3CC2-42C0-8AC2-DC7F79103403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73FD5EC-6CC4-4F7D-ABC3-8C1D6E069A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73FD5EC-6CC4-4F7D-ABC3-8C1D6E069A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73FD5EC-6CC4-4F7D-ABC3-8C1D6E069A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73FD5EC-6CC4-4F7D-ABC3-8C1D6E069A15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+c:\users\nexwave\documents\visual studio 2015\Projects\exceptionHandlinh\exceptionHandlinh\bin\Debug\exceptionHandlinh.exe.config
+c:\users\nexwave\documents\visual studio 2015\Projects\exceptionHandlinh\exceptionHandlinh\bin\Debug\exceptionHandlinh.exe
+c:\users\nexwave\documents\visual studio 2015\Projects\exceptionHandlinh\exceptionHandlinh\bin\Debug\exceptionHandlinh.pdb
+c:\users\nexwave\documents\visual studio 2015\Projects\exceptionHandlinh\exceptionHandlinh\obj\Debug\exceptionHandlinh.csprojResolveAssemblyReference.cache
+c:\users\nexwave\documents\visual studio 2015\Projects\exceptionHandlinh\exceptionHandlinh\obj\Debug\exceptionHandlinh.exe
+c:\users\nexwave\documents\visual studio 2015\Projects\exceptionHandlinh\exceptionHandlinh\obj\Debug\exceptionHandlinh.pdb

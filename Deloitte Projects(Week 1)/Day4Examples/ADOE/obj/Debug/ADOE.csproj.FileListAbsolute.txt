@@ -1,0 +1,9 @@
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day4Examples\ADOE\bin\Debug\ADOE.exe.config
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day4Examples\ADOE\bin\Debug\ADOE.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day4Examples\ADOE\bin\Debug\ADOE.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day4Examples\ADOE\obj\Debug\ADOE.csprojResolveAssemblyReference.cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day4Examples\ADOE\obj\Debug\ADOE.Form1.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day4Examples\ADOE\obj\Debug\ADOE.Properties.Resources.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day4Examples\ADOE\obj\Debug\ADOE.csproj.GenerateResource.Cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day4Examples\ADOE\obj\Debug\ADOE.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Day4Examples\ADOE\obj\Debug\ADOE.pdb

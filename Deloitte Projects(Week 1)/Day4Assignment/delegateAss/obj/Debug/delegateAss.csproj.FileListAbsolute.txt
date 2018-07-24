@@ -1,0 +1,1 @@
+c:\users\nexwave\documents\visual studio 2015\Projects\Day4Assignment\delegateAss\bin\Debug\delegateAss.exe.config
