@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        //$(document).load(function()
+        //{
+        //   
+        //});
+        $(document).ready(function () {
+
+            $("body").css("background-color", "cyan");
+            $("body").mouseenter(function () {
+                $("body").css("background-color", "blue");
+            });
+            $("body").mouseleave(function () {
+                $("body").css("background-color", "yellow");
+            });
+            $("input:text").hover(function () {
+                $("input:text").css("background-color", "red");
+                $("input:text").val("Hello World");
+            });
+
+
+         
+        });
+    </script>
+
+</head>
+<body>
+    Enter data : <input type="text" />
+
+    <button>button</button>
+</body>
+</html>

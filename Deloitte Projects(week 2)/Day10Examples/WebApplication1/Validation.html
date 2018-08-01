@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+
+    <script type="text/javascript">
+
+        function validate()
+        {
+
+        
+            var name = document.getElementById("txtname").value;
+            var age = parseInt(document.getElementById("txtage").value);
+            var pass = document.getElementById("txtpass");
+            var g = "";
+            var gen = document.getElementsByName("gen");
+            if (gen[0].checked) {
+                g = g.gen[0].value;
+
+            }
+            else {
+                g = g.gen[1].value;
+            }
+
+
+
+
+            if (name == "")
+            {
+                alert("Name cant be blank");
+                return;
+            }
+            
+
+            
+          
+
+
+            
+            if (pass== "") {
+                alert("Password cant be blank");
+                return;
+            }
+           
+            
+
+
+            document.write("Name:" + name);
+            document.write("<br/>");
+            document.write("Age:" + age);
+            document.write("<br/>");
+            document.write("password Valid");
+            document.write("<br/>");
+            document.write("Gender:" + gen);
+            document.write("<br/>");
+
+
+            var c = "";
+            var cab = document.getElementById("cbcab");
+            if(cab.checked)
+            {
+                c = "cab required";
+
+            }
+            else
+            {
+                c = "Not";
+            }
+
+            var loc = document.getElementById("loc").value;;
+        }
+
+
+    </script>
+
+</head>
+<body>
+    <form>
+        <table border="1">
+            <tr>
+                <td>Enter Name: </td>
+                <td><input type="text" id="txtname"/> </td>
+            </tr>
+
+            <tr>
+                <td>Enter Age: </td>
+                <td><input type="number" id="txtage" /> </td>
+            </tr>
+            <tr>
+                <td>Enter Password: </td>
+                <td><input type="password" id="txtpass" /> </td>
+            </tr>
+            <tr>
+                <td>Enter Gender: </td>
+                <td><input type="radio" name="gen" value="male" /> Male
+                    <input type="radio" name="gen" value="female"/> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Cab Facility> </td>
+                <td>
+                    <input type="checkbox" id="cbcab" /> 
+                </td>
+            </tr>
+            <tr>
+                <td> Select Location:</td>
+                <td>
+                    <select id="loc">
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Bangalore">Bangalore</option>
+                    </select>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <button onclick="validate()" > Validate </button>/>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>

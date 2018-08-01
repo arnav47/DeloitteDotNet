@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+
+            $("button").click(function () {
+                var name = $("#txtname").val();
+                if(name=="")
+                {
+                    alert("Name cant be blank");
+                    return;
+                }
+                var age = parseInt($("#txtage").val());
+                if (isNaN(age)) {
+                    alert("Error in age");
+                    return;
+                }
+
+                alert("Data: " + name + "  " + age);
+
+            })
+
+        });
+    </script>
+</head>
+<body>
+    <form>
+        <table border="1">
+            <tr>
+                <td>Enter Name: </td>
+                <td><input type="text" id="txtname" /> </td>
+            </tr>
+
+            <tr>
+                <td>Enter Age: </td>
+                <td><input type="number" id="txtage" /> </td>
+            </tr>
+            <tr>
+                <td>Enter Password: </td>
+                <td><input type="password" id="txtpass" /> </td>
+            </tr>
+            <tr>
+                <td>Enter Gender: </td>
+                <td>
+                    <input type="radio" name="gen" value="male" /> Male
+                    <input type="radio" name="gen" value="female" /> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Cab Facility> </td>
+                <td>
+                    <input type="checkbox" id="cbcab" />
+                </td>
+            </tr>
+            <tr>
+                <td> Select Location:</td>
+                <td>
+                    <select id="loc">
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Bangalore">Bangalore</option>
+                    </select>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <button > Validate </button>/>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script type="text/javascript">
+        function draw()
+        {
+            var draw = document.getElementById("c");
+            var ctx = draw.getContext("2d");
+            ctx.fillStyle = "rgb(200,100,10)";
+            ctx.fillRect(10,150,250,520);
+
+        }
+    </script>
+</head>
+<body>
+
+    <canvas width="300" height="500" id="c">
+        Hi!
+    </canvas>
+    <button onclick="draw()">Draw in Canvas</button>
+
+</body>
+</html>

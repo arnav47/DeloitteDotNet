@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+    function add()
+    {
+        if (typeof(Storage)=='undefined')
+        {
+            document.getElementById("result").innerHTML = "Your Browser is bad"
+        }
+
+        else {
+            var name = document.getElementById("txtname").value;
+            var age = document.getElementById("txtage").value;
+            localStorage.setItem("NAME", name);
+            localStorage.setItem("AGE", age);
+
+            document.getElementById("result").innerText = "Data Added";
+
+        }
+
+
+    }
+
+    function Read()
+    {
+        document.getElementById("result").innerText = localStorage.getItem("NAME") + " ,  " + localStorage.getItem("AGE");
+
+    }
+    </script>
+
+</head>
+<body>
+    Enter Name:<input type="text" id="txtname" />
+    <br />
+    Enter Age:<input type="number" id="txtage" />
+
+    <br />
+    <button onclick="add()">SAVE STORAGE</button>
+    <br />
+    <br />
+    <button onclick="Read()">Read Storage</button>
+    <br />
+    <span id="result"> </span>
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿body 
+
+{
+    background-color:indianred;
+
+}
+div{
+    border:5px solid green;
+    width:200px;
+    height:120px;
+}

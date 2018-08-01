@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script type="text/javascript">
+        function Add() {
+            var fname = prompt("Enter FName");
+            var lname = prompt("Enter LName");
+            var fullName = fname + " " + lname;
+            document.write("Hello  " + fullName);
+            document.write("<br/>");
+
+        }
+        function AddNew(a,b)
+        {
+            alert("addition: " + (a + b));
+        }
+
+        function CallAdd()
+        {
+            var n1 = parseFloat(prompt("Enter Floating num1"));
+            var n2 = parseFloat(prompt("Enter Floating num2"));
+            AddNew(n1, n2);
+        }
+
+        function calcsi(p,n,r)
+        {
+
+            return (p * r * n) / 100;
+        }
+        function Add2() {
+            var p = parseFloat(prompt("Enter Floating p"));
+            var n = parseFloat(prompt("Enter Floating n"));
+            var r = parseFloat(prompt("Enter Floatingr"));
+            calcsi(p, n, r);
+        }
+    </script>
+
+
+
+
+
+</head>
+
+
+<body>
+    <button onclick="Add()"> No Params No Return </button>
+    <br />
+    
+    <br /><br />
+    <button onclick="CallAdd()"> With Parameters custom </button>
+    <br /><br />
+    <button onclick="Add2()"> With Parameters and Return </button>
+
+</body>
+</html>

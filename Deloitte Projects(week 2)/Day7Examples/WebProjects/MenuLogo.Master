@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MenuLogo.Master.cs" Inherits="WebProjects.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 229px;
+        }
+        .auto-style2 {
+            width: 520px;
+            height: 121px;
+        }
+        .auto-style3 {
+            margin-bottom: 34px;
+        }
+        .auto-style4 {
+            width: 520px;
+            height: 75px;
+        }
+        .auto-style5 {
+            height: 75px;
+        }
+        .auto-style6 {
+            height: 121px;
+        }
+        .auto-style7 {
+            height: 631px;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server"
+        <div style="background-color:aquamarine;font-family:Arial;font-size:large;" class="auto-style7">
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style4">Online Shopping Website</td>
+                    <td class="auto-style5">
+                        <asp:Image ID="Image1" runat="server" Height="80px" ImageUrl="~/images.png" Width="85px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        <asp:HyperLink ID="HyperLink1" runat="server">Login                 </asp:HyperLink>
+                        <asp:Label ID="Label1" runat="server" Text="         --                     "></asp:Label>
+                        <asp:HyperLink ID="HyperLink2" runat="server">Products        </asp:HyperLink>
+                        <asp:Label ID="Label3" runat="server" Text="         --                     "></asp:Label>
+                        <asp:HyperLink ID="HyperLink3" runat="server">Order                </asp:HyperLink>
+                        <asp:Label ID="Label4" runat="server" Text="         --                     "></asp:Label>
+                        <asp:HyperLink ID="HyperLink4" runat="server">Complaints            </asp:HyperLink>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:Image ID="Image2" runat="server" CssClass="auto-style3" Height="109px" ImageUrl="~/shopping-cart-logo-icon-70706.png" Width="110px" />
+                    </td>
+                </tr>
+            </table>
+            </div>
+
+             <div style="background-color:lightcoral;font-family:'Times New Roman';font-size:large">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            
+        
+        </asp:ContentPlaceHolder>
+        </div>
+   
+    
+    </form>
+</body>
+</html>

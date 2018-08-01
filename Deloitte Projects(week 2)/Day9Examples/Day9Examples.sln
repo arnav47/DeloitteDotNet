@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0545D263-E68E-46AF-B7D9-E76437F150CB}"
+	ProjectSection(SolutionItems) = preProject
+		audio.html = audio.html
+		CANVAS.html = CANVAS.html
+		..\..\..\..\Downloads\chaplin.mp4 = ..\..\..\..\Downloads\chaplin.mp4
+		css2.html = css2.html
+		css3.html = css3.html
+		css4.html = css4.html
+		css5.html = css5.html
+		css6.html = css6.html
+		localstorage.html = localstorage.html
+		..\..\..\..\Downloads\MUSIC.mp3 = ..\..\..\..\Downloads\MUSIC.mp3
+		newFormElements.html = newFormElements.html
+		NonSemantic.html = NonSemantic.html
+		SESSIONSAVE.html = SESSIONSAVE.html
+		videoControls.html = videoControls.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
