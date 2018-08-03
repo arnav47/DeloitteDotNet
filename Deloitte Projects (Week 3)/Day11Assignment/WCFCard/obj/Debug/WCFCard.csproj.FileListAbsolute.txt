@@ -1,0 +1,7 @@
+c:\users\nexwave\documents\visual studio 2015\Projects\Day11Assignment\WCFCard\obj\Debug\WCFCard.csprojResolveAssemblyReference.cache
+c:\users\nexwave\documents\visual studio 2015\Projects\Day11Assignment\WCFCard\bin\Debug\WCFCard.dll
+c:\users\nexwave\documents\visual studio 2015\Projects\Day11Assignment\WCFCard\bin\Debug\WCFCard.pdb
+c:\users\nexwave\documents\visual studio 2015\Projects\Day11Assignment\WCFCard\bin\Debug\EntityFramework.dll
+c:\users\nexwave\documents\visual studio 2015\Projects\Day11Assignment\WCFCard\bin\Debug\EntityFramework.xml
+c:\users\nexwave\documents\visual studio 2015\Projects\Day11Assignment\WCFCard\obj\Debug\WCFCard.dll
+c:\users\nexwave\documents\visual studio 2015\Projects\Day11Assignment\WCFCard\obj\Debug\WCFCard.pdb

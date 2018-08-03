@@ -1,0 +1,20 @@
+﻿<div style="background-color:antiquewhite;font-family:Arial;text-shadow:4px 4px 4px Gray">
+    <h1>Register Shopping</h1>
+</div>
+
+<div style="background-color:brown;width:auto;height:auto">
+    <table border="1">
+        <tr>
+            <td>@Html.ActionLink("Insert New","InsertRegisterShopping","RegisterShoppingCRUD")</td>
+            <td>@Html.ActionLink("Select All", "SelectAllRegisterShopping", "RegisterShoppingCRUD")</td>
+            <td>@Html.ActionLink("Select by ID", "SelectByID", "RegisterShoppingCRUD")</td>
+            <td>@Html.ActionLink("Select and Edit", "SelectAndEdit", "RegisterShoppingCRUD")</td>
+
+
+        </tr>
+    </table>
+</div>
+
+<div style="background-color:lightgoldenrodyellow">
+     @RenderBody();
+</div>

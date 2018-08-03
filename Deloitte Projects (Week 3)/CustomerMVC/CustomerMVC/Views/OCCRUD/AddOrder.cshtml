@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "AddOrder";
+}
+
+
+<div class="w3-container w3-center">
+    <h2>AddOrder</h2>
+    <form class="w3-container">
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+            <div>
+                <label>Enter Product Name :</label>
+                @Html.TextBox("txtname")
+            </div>
+            <br/>
+            <br />
+            <div>
+                <label>Enter Price : </label>
+                @Html.TextBox("txtprice")
+            </div>
+            <br />
+            <br />
+            <div>
+                <label>Select Customer :</label>
+                @Html.DropDownList("ddlCustomer", Session["rsdata"] as SelectList)
+
+            </div>
+            <br />
+           
+            <div>
+                <input class="w3-btn w3-blue" type="submit" value="Insert" />
+            </div>
+        }
+    </form>
+    </div>
+
+

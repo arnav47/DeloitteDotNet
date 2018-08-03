@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4b41bada-92ff-47e4-a9b6-3c81ea4ef55d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:56573/CardService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CardService.xsd" MetadataType="Schema" ID="f3190ad7-de6c-4f37-ab3e-b202ce9c71c8" SourceId="1" SourceUrl="http://localhost:56573/CardService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CardService1.xsd" MetadataType="Schema" ID="7bc6cdf9-fcd8-463f-b8af-3d6ec60a752e" SourceId="1" SourceUrl="http://localhost:56573/CardService.svc?xsd=xsd2" />
+    <MetadataFile FileName="Card.wsdl" MetadataType="Wsdl" ID="433a0af3-2286-42ff-9294-1a20b88daee8" SourceId="1" SourceUrl="http://localhost:56573/CardService.svc?wsdl" />
+    <MetadataFile FileName="CardService2.xsd" MetadataType="Schema" ID="f2c3052c-a25f-4494-9737-a34239c53d88" SourceId="1" SourceUrl="http://localhost:56573/CardService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudentDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CardDetail">
+    <Key>
+      <PropertyRef Name="CardNo" />
+    </Key>
+    <Property Name="CardNo" Type="int" Nullable="false" />
+    <Property Name="ExpDate" Type="datetime" Nullable="false" />
+    <Property Name="cvv" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="bal" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="StudentDBModelStoreContainer">
+    <EntitySet Name="CardDetail" EntityType="Self.CardDetail" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

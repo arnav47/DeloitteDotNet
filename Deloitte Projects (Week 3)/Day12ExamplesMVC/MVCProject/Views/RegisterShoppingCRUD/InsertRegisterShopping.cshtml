@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "InsertRegisterShopping";
+}
+
+<h2>InsertRegisterShopping</h2>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div>
+        <label>Enter Name</label>
+        @Html.TextBox("txtname")
+    </div>
+    <div>
+        <label>Select Gender</label>
+        @Html.RadioButton("gender", "Male")Male
+        @Html.RadioButton("gender", "Female")Female
+    </div>
+    <div>
+        <label>Select Membership</label>
+        @Html.DropDownList("ddlmember", new List<SelectListItem>
+            {
+                new SelectListItem { Text="Free",Value="Free"},
+                new SelectListItem { Text="Paid",Value="Paid"}
+            }, "select")
+    </div>
+    <div>
+        <label>Select Shopping Preference</label>
+        <select id="shop" name="shop" multiple="multiple">
+            <option value="Books">Books</option>
+            <option value="Apparels">Apparels</option>
+            <option value="Cosmetics">Cosmetics</option>
+            <option value="Groceries">Groceries</option>
+            <option value="Mobiles">Mobiles</option>
+        </select>
+    </div>
+    <div>
+        <label>COD Prefered??</label>
+        @Html.CheckBox("cbcod", false)
+    </div>
+    <div>
+        <label>Enter Password</label>
+        @Html.Password("txtpass")
+    </div>
+    <div>
+        <input type="submit" value="Insert" />
+    </div>
+}
+@Html.ActionLink("Select ALL", "SelectAllRegisterShopping")<br />
+@Html.ActionLink("Select By ID", "SelectByID")

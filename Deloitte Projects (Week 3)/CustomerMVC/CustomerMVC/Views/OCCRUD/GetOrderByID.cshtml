@@ -1,0 +1,33 @@
+﻿@model IEnumerable<CustomerMVC.Models.MVCProjectEntities>
+@{
+    ViewBag.Title = "Get Orders By Customer ID";
+}
+
+<h2>Search Order By Customer Name</h2>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div>
+        <table class="w3-table w3-blue" >
+            <tr>
+                <td>Enter Customer ID:</td>
+                <td><input class="w3-input" type="number" name="txtid" id="txtid" /></td>
+                <td><input class="w3-btn w3-blue" type="submit" value="Search" name="command" /></td>
+            </tr>
+        </table>
+    </div>
+    <table>
+        @if (Session["pdata"] != null)
+        {
+            List<CustomerMVC.Models.tbl_order> pname = (List<CustomerMVC.Models.tbl_order>)Session["pdata"];
+            Session["check"] = "id";
+            foreach (var p in pname)
+            {
+                <tr>
+                    <td>@Html.ActionLink(@p.productName, "ChangeOrderPrice", new { Id = @p.OrderId.ToString() })</td>
+                </tr>
+            }
+
+        }
+    </table>
+}

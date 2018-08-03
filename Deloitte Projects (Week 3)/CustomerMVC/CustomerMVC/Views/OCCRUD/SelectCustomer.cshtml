@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CustomerMVC.Models.MVCProjectEntities>
+@{
+    ViewBag.Title = "Select Customer";
+
+}
+<div class="w3-container w3-center">
+    <form class="w3-container">
+        <h2>Search Order By Customer Name</h2>
+
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+            <div>
+                <br /> <br /> <br />
+
+                @Html.DropDownList("ddlCustomer", Session["Data1"] as SelectList)
+
+                <br /> <br /> <br />
+
+                <input class="w3-btn w3-blue" type="submit" value="Search" name="command" />
+
+            </div>
+
+
+            if (Session["pdata"] != null)
+            {
+                List<CustomerMVC.Models.tbl_order> pname = (List<CustomerMVC.Models.tbl_order>)Session["pdata"];
+                foreach (var p in pname)
+                {
+
+                    <label>
+                        @Html.ActionLink(@p.productName, "ChangeOrderPrice", new { Id = @p.OrderId.ToString() })
+                    </label>
+                    <br />
+                    <br />
+
+
+
+                }
+
+
+            }
+        }
+    </form>
+    </div>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MVCProject.Models.RegisterShopping>
+@{
+    ViewBag.Title = "SelectAndEdit";
+}
+
+<h2>SelectAndEdit</h2>
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Membership</th>
+        <th>Shopping Preference</th>
+        <th>COD</th>
+        <th>Password</th>
+        <th>Edit</th>
+    </tr>
+    @foreach (var v in Model)
+    {
+        <tr>
+            <td>@v.Id</td>
+            <td>@v.Name</td>
+            <td>@v.Gender</td>
+            <td>@v.Membership</td>
+            <td>@v.ShoppingPreference</td>
+            <td>@v.COD</td>
+            <td>@v.Password</td>
+            <td>@Html.ActionLink(@v.Id.ToString(), "Update", new { ID = @v.Id.ToString() })</td>
+
+        </tr>
+    }
+</table>
+@Html.ActionLink("Insert New..", "InsertRegisterShopping")

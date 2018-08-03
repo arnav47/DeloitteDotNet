@@ -1,0 +1,62 @@
+﻿
+@using RazorExample;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    @{ 
+        List<studentInfo> lst = new List<studentInfo>
+        {
+            new studentInfo
+            {RollNo=1,name="Arnav",course="BE",branch="ISE",semester=4,Aggregate=75.55,Grade='A' },
+
+              new studentInfo
+            {RollNo=1,name="Aarav",course="BE",branch="CSE",semester=6,Aggregate=85.55,Grade='A' },
+
+        new studentInfo
+        { RollNo = 1, name = "Boi", course = "BE", branch = "ISE", semester = 2, Aggregate = 25.55, Grade = 'D' },
+
+        new studentInfo
+        { RollNo = 1, name = "Ian", course = "BSC", branch = "ISE", semester = 8, Aggregate = 65.55, Grade = 'B' },
+
+        new studentInfo
+        { RollNo = 1, name = "Peter", course = "BSc", branch = "CSE", semester = 4, Aggregate = 75.55, Grade = 'A' } };
+    
+    }
+    <div>
+    <table border="1" style="background-color:lightskyblue;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:large">
+        <tr>
+            <th>Roll No.</th>
+            <th>Name </th>
+            <th> Course</th>
+            <th>Branch </th>
+            <th>Semester </th>   
+            <th>Aggregate </th>
+            <th>Grade </th>
+            </tr>
+            @foreach(var s in lst)
+            {
+                <tr>
+                <td>@s.RollNo </td>
+                <td>@s.name</td>
+                <td>@s.course</td>
+                <td>@s.branch</td>
+                <td>@s.semester</td>
+                <td>@s.Aggregate</td>
+                <td>@s.Grade</td>
+                    </tr>
+            }
+        </tr>
+
+    </table>
+    </div>
+</body>
+</html>
